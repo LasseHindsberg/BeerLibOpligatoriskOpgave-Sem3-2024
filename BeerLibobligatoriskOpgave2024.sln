@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BeerLibobligatoriskOpgave2024", "BookLibObligatoriskOpgave2024\BeerLibobligatoriskOpgave2024.csproj", "{C9DE7772-5068-4832-8A72-29A08F93A17C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerLibobligatoriskOpgave2024Tests", "BeerLibobligatoriskOpgave2024Tests\BeerLibobligatoriskOpgave2024Tests.csproj", "{7BF6E442-0B6C-43FF-9B91-D8320C0DCAF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9DE7772-5068-4832-8A72-29A08F93A17C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9DE7772-5068-4832-8A72-29A08F93A17C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9DE7772-5068-4832-8A72-29A08F93A17C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9DE7772-5068-4832-8A72-29A08F93A17C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BF6E442-0B6C-43FF-9B91-D8320C0DCAF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BF6E442-0B6C-43FF-9B91-D8320C0DCAF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BF6E442-0B6C-43FF-9B91-D8320C0DCAF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BF6E442-0B6C-43FF-9B91-D8320C0DCAF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B72BBCA-137D-413F-9EB6-E5DFA6D13700}
+	EndGlobalSection
+EndGlobal
