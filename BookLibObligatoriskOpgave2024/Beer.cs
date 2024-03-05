@@ -47,6 +47,7 @@
         public override string ToString() => $"{id}, {name}, {abv}";
         public bool ValidateName(string? name)
         {
+            // check if our name does NOT equal null AND is at least 3 characters long
             if (name != null && 3 <= name.Length)
             {
                 return true;
@@ -59,6 +60,7 @@
 
         public bool ValidateAbv(double abv)
         {
+            // check if our abv is between 0 and 67
             if (0 <= abv && abv <= 67)
             {
                 return true;
@@ -71,6 +73,7 @@
 
         public bool ValidateId(int id)
         {
+            // check if our id is more than 0
             if (0 < id)
             {
                 return true;
